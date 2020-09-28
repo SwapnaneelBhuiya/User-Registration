@@ -13,7 +13,18 @@ public class UserReg {
 		else
 		{
 			System.out.println("Invalid first name");
-			System.exit(0);;
+			System.exit(0);
+		}
+		System.out.println("Enter Last Name");
+		String last=sc.nextLine();
+		if(last.matches("^[A-Z]{1}[a-z]{2,}"))
+		{
+			System.out.println("Valid Name");
+		}
+		else
+		{
+			System.out.println("Invalid last name");
+			System.exit(0);
 		}
 	}
 
