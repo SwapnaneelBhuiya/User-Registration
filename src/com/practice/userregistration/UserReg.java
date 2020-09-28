@@ -13,7 +13,7 @@ public class UserReg {
 		else
 		{
 			System.out.println("Invalid first name");
-			System.exit(0);;
+			System.exit(0);
 		}
 	}
 
