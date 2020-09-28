@@ -54,7 +54,7 @@ package com.practice.userregistration;
 		}
 		public static boolean validPassword(String pass)
 		{
-			if(pass.length()>=8)
+			if(pass.matches("[A-Z]+[a-z]{8,}"))
 				return true;
 			else
 				return false;
